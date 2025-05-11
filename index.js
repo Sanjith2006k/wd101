@@ -58,12 +58,4 @@ uf.addEventListener("submit", saveusform);
 displayEntries();
 
 
-document.addEventListener('DOMContentLoaded', () => {
-            const dob = document.getElementById('dob');
-            const today = new Date();
-            const pad = n => n.toString().padStart(2, '0');//padstart converts the input to 0n,where n is the input,if the user enters 5 it converts it to 05 & toString converts number to strings i.e- 5 to "5"
-            const max = `${today.getFullYear() - 18}-${pad(today.getMonth() + 1)}-${pad(today.getDate())}`;
-            const min = `${today.getFullYear() - 55}-${pad(today.getMonth() + 1)}-${pad(today.getDate())}`;
-            dob.min = min;
-            dob.max = max;
-        });
+
