@@ -24,7 +24,7 @@
       </div>
       <div class="mb-4">
         <label for="dob" class="block text-gray-700">Date of Birth:</label>
-        <input type="date" id="dob" class="w-full p-2 border border-gray-300 rounded" max="2007-05-11" min="1970-05-11" required>
+        <input type="date" id="dob" class="w-full p-2 border border-gray-300 rounded" required>
       </div>
       <div class="mb-4">
         <label for="acceptTerms" class="block text-gray-700"></label>
@@ -40,5 +40,16 @@
   </div>
   </div>
   <script src="index.js"></script>
+  <scrip><input type="date" id="dob" name="dob"></script>
+
+<script>
+  const today = new Date();
+  const maxDate = new Date(today.getFullYear() - 18, today.getMonth(), today.getDate());
+  const minDate = new Date(today.getFullYear() - 55, today.getMonth(), today.getDate());
+
+  document.getElementById("dob").max = maxDate.toISOString().split("T")[0];
+  document.getElementById("dob").min = minDate.toISOString().split("T")[0];
+
+</script>
 </body>
 </html>
