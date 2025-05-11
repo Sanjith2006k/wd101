@@ -28,8 +28,8 @@ const displayEntries = () => {
     <th class="border px-4 py-2">Name</th>
     <th class="border px-4 py-2">Email</th>
     <th class="border px-4 py-2">Password</th>
-    <th class="border px-4 py-2">Date of Birth</th>
-    <th class="border px-4 py-2">Accept Terms</th>
+    <th class="border px-4 py-2">Dob</th>
+    <th class="border px-4 py-2">Accepted terms?</th>
     </tr>${tableEntries}</table>`;
   let details = document.getElementById("user");
   details.innerHTML = table;
