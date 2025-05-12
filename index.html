@@ -24,7 +24,7 @@
       </div>
       <div class="mb-4">
         <label for="dob" class="block text-gray-700">Date of Birth:</label>
-        <input type="date" id="dob" class="w-full p-2 border border-gray-300 rounded" required>
+        <input type="date" id="dob" class="w-full p-2 border border-gray-300 rounded" required min=1967-11-09 max=2004-11-09>
       </div>
       <div class="mb-4">
         <label for="acceptTerms" class="block text-gray-700"></label>
@@ -40,17 +40,7 @@
   </div>
   </div>
   <script src="index.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-            const dob = document.getElementById('dob');
-            const today = new Date();
-            const pad = n => n.toString().padStart(2, '0');//padstart converts the input to 0n,where n is the input,if the user enters 5 it converts it to 05 & toString converts number to strings i.e- 5 to "5"
-            const max = `${today.getFullYear() - 18}-${pad(today.getMonth() + 1)}-${pad(today.getDate())}`;
-            const min = `${today.getFullYear() - 55}-${pad(today.getMonth() + 1)}-${pad(today.getDate())}`;
-            dob.min = min;
-            dob.max = max;
-        });
-  </script>
+  
 
  
 </body>
