@@ -89,7 +89,7 @@ The project demonstrates form handling, validation, browser storage, and deploym
 
 Clone the repository:
 
-    -> git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/your-username/your-repo-name.git
 
 Open index.html in your browser.
 
@@ -109,4 +109,4 @@ Open index.html in your browser.
 
 
 Author
-~ S Sanjith Kumar
+S Sanjith Kumar
