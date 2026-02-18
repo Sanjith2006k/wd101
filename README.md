@@ -16,13 +16,13 @@ The project demonstrates form handling, validation, browser storage, and deploym
 
 **Technologies Used**
 
-• HTML
+    • HTML
 
-• CSS
+    • CSS
 
-• JavaScript
+    • JavaScript
 
-• Web Storage API (localStorage)
+    • Web Storage API (localStorage)
 
 
 **✨Features**
@@ -31,13 +31,13 @@ The project demonstrates form handling, validation, browser storage, and deploym
 
 • Input validation for:
 
-  • Name
+    • Name
 
-  • Email
+    • Email
 
-  • Password
+    • Password
 
-  • Date of Birth (only users aged 18 to 55 are allowed)
+    • Date of Birth (only users aged 18 to 55 are allowed)
 
 • Checkbox to accept terms and conditions
 
@@ -54,13 +54,13 @@ The project demonstrates form handling, validation, browser storage, and deploym
 
 • Input elements with the following IDs:
 
-  • name
+    • name
 
-  • email
+    • email
 
-  • password
+    • password
 
-  • dob
+    • dob
 
 • Checkbox input for accepting terms
 
@@ -68,15 +68,15 @@ The project demonstrates form handling, validation, browser storage, and deploym
 
 • Table with the following headers:
 
-  • Name
+    • Name
 
-  • Email
+    • Email
 
-  • Password
+    • Password
 
-  • Dob
+    • Dob
 
-  • Accepted terms?
+    • Accepted terms?
 
 • Accepted terms displayed as true or false
 
@@ -89,7 +89,7 @@ The project demonstrates form handling, validation, browser storage, and deploym
 
 Clone the repository:
 
--> git clone https://github.com/your-username/your-repo-name.git
+    -> git clone https://github.com/your-username/your-repo-name.git
 
 Open index.html in your browser.
 
@@ -109,4 +109,4 @@ Open index.html in your browser.
 
 
 Author
-S Sanjith Kumar
+~ S Sanjith Kumar
