@@ -24,6 +24,8 @@ The project demonstrates form handling, validation, browser storage, and deploym
 
     • Web Storage API (localStorage)
 
+    
+
 
 **✨Features**
 
@@ -48,6 +50,7 @@ The project demonstrates form handling, validation, browser storage, and deploym
 • Automatically loads saved data on page reload
 
 • Hosted and publicly accessible using GitHub Pages
+
 
 
 **📚Assignment Requirements Covered**
@@ -85,6 +88,8 @@ The project demonstrates form handling, validation, browser storage, and deploym
 • Data persists using web storage
 
 
+
+
 **🌟How to Run Locally**
 
 Clone the repository:
@@ -109,4 +114,5 @@ Open index.html in your browser.
 
 
 Author
+
 S Sanjith Kumar
